@@ -5,23 +5,23 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
+        API_ID = 5401122
+        BOT_TOKEN = "5575474533:AAF60Fs0SQk99PSXS2o6OtZ0VtQDZy1jgG0"
+        BASE_URL_OF_BOT = "gibanrouter.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = 0
+        OWNER_ID = 2141745029
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
+        EDIT_SLEEP_SECS = 10
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
