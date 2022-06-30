@@ -7,14 +7,14 @@ except:
         
         API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
         API_ID = 5401122
-        BOT_TOKEN = "5575474533:AAF60Fs0SQk99PSXS2o6OtZ0VtQDZy1jgG0"
+        BOT_TOKEN = "5560803292:AAG5BPw3dNoqmzwcs8BGCA601_EvHRuBYBA"
         BASE_URL_OF_BOT = "gibanrouter.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001625644002]
+        ALD_USR = [-1001543103731]
         OWNER_ID = 2141745029
         
         # Google Drive Index Link should include the base dir also See readme for more info
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgresql://postgres:XyYizNbYKU8sD8SUkQyp@containers-us-west-61.railway.app:5642/railway"
+        DB_URI = "postgresql://postgres:OGjtKuMbeQVMcYXxyrBg@containers-us-west-74.railway.app:7962/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
