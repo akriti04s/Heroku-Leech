@@ -584,7 +584,7 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkit an instance of <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Welcome To Stark Leech Bot!\n**Support:** @StarkIndustriesChat\n**Channel:** @StarkAndIndustries"
     await event.reply(msg, parse_mode="html")
 
 
@@ -702,11 +702,11 @@ async def about_me(message):
     diff = Human_Format.human_readable_timedelta(diff)
 
     msg = (
-        "<b>Name</b>: <code>TorToolkit</code>\n"
+        "<b>Name</b>: <code>Stark Leech Bot</code>\n"
         f"<b>Version</b>: <code>{__version__}</code>\n"
         f"<b>Telethon Version</b>: {telever}\n"
         f"<b>Pyrogram Version</b>: {pyrover}\n"
-        "<b>Created By</b>: @yaknight\n\n"
+
         "<u>Currents Configs:-</u>\n\n"
         f"<b>Bot Uptime:-</b> {diff}\n"
         "<b>Torrent Download Engine:-</b> <code>qBittorrent [4.3.0 fix active]</code> \n"
@@ -716,11 +716,6 @@ async def about_me(message):
         f"<b>Rclone config:- </b> <code>{rclone_cfg}</code>\n"
         f"<b>Leech:- </b> <code>{leen}</code>\n"
         f"<b>Rclone:- </b> <code>{rclone}</code>\n"
-        "\n"
-        f"<b>Latest {__version__} Changelog :- </b>\n"
-        "1.Dead Torrent Will be timed out and removed.\n"
-        "2.Added /setthumb and /clearthumb.\n"
-        "3.Restrict Stuff to Owner.\n"
     )
 
     await message.reply(msg,parse_mode="html")
