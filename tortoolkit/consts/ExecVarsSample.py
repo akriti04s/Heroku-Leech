@@ -7,7 +7,7 @@ except:
         
         API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
         API_ID = 5401122
-        BOT_TOKEN = "5575474533:AAF60Fs0SQk99PSXS2o6OtZ0VtQDZy1jgG0"
+        BOT_TOKEN = "5515044847:AAFdq7M4v3fWmBCNi3GEoPPgvoDxq3Uts_U"
         BASE_URL_OF_BOT = "gibanrouter.herokuapp.com"
 
         # Edit the server port if you want to keep it default though.
@@ -65,7 +65,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 1000
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
