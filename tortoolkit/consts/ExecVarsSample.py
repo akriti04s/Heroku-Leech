@@ -7,21 +7,21 @@ except:
         
         API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
         API_ID = 5401122
-        BOT_TOKEN = "5560803292:AAG5BPw3dNoqmzwcs8BGCA601_EvHRuBYBA"
-        BASE_URL_OF_BOT = "gibanrouter.herokuapp.com"
+        BOT_TOKEN = "5560803292:AAFchGf24AL_DKNvZs3V_27lEoPZEe789ZA"
+        BASE_URL_OF_BOT = "https://heroku.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001543103731,-1001625644002]
+        ALD_USR = [-1001654135663,1234465167,-1001543103731]
         OWNER_ID = 2141745029
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
 
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 10
+        EDIT_SLEEP_SECS = 5
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 1700000000
@@ -36,11 +36,17 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgresql://postgres:OGjtKuMbeQVMcYXxyrBg@containers-us-west-74.railway.app:7962/railway"
+        DB_URI = "postgresql://postgres:oIcABMG2yNyur7IeEaB4@containers-us-west-88.railway.app:7537/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
+        # MEGA CONFIG
+        MEGA_ENABLE = False
+        MEGA_API = ""
+        MEGA_UNAME = None
+        MEGA_PASS = None
+
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
 
@@ -65,7 +71,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 1000
+        MAX_TORRENT_SIZE = 10
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -94,8 +100,3 @@ except:
         METAINFO_BOT = False
         EXPRESS_UPLOAD = True
         
-
-
-
-
-
