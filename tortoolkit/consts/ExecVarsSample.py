@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgresql://postgres:oIcABMG2yNyur7IeEaB4@containers-us-west-88.railway.app:7537/railway"
+        # DB_URI = "postgresql://postgres:oIcABMG2yNyur7IeEaB4@containers-us-west-88.railway.app:7537/railway"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
@@ -71,7 +71,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 10
+        MAX_TORRENT_SIZE = 60
 
         # Set this to your bot username if you want to add the username of your bot at the end of the commands like
         # /leech@TorToolkitBot so the value will be @TorToolkitBot
@@ -89,7 +89,7 @@ except:
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
         USER_CAP_ENABLE = False
-        USER_CAP_LIMIT = [50,10,2]
+        USER_CAP_LIMIT = [150,10,2]
 
         # No need to worry about these
         # CHANGE THESE AT YOUR RISK
