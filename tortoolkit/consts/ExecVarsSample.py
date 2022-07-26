@@ -7,7 +7,7 @@ except:
         
         API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
         API_ID = 5401122
-        BOT_TOKEN = "5560803292:AAFchGf24AL_DKNvZs3V_27lEoPZEe789ZA"
+        BOT_TOKEN = "5560803292:AAGmHO56MBqpbO9yCarH3tPF7aJGVSg8Z6A"
         BASE_URL_OF_BOT = "https://heroku.com"
 
         # Edit the server port if you want to keep it default though.
