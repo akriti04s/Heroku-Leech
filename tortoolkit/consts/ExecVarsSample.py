@@ -5,17 +5,17 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = "d28109d5fd13dd9c9e87c90e8c4ff7c5"
-        API_ID = 5401122
-        BOT_TOKEN = "5560803292:AAGmHO56MBqpbO9yCarH3tPF7aJGVSg8Z6A"
+        API_HASH = "a69125adcc108171e8084fe74eac7c03"
+        API_ID = 16855980
+        BOT_TOKEN = "5407595209:AAHhqrpNnBFUwPu7OW5qyA6xTfCgKvMXQqs"
         BASE_URL_OF_BOT = "https://heroku.com"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [-1001654135663,1234465167,-1001543103731]
-        OWNER_ID = 2141745029
+        ALD_USR = [1289689351,-1001614996105]
+        OWNER_ID = 5165017743
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
